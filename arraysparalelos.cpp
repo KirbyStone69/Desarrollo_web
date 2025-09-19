@@ -69,7 +69,6 @@ int main(){
     }
 return 0;
 }
-
 void modificar(int cont){
     int matriculabuscada;
     for (int i = 0; i < 5; i++){
@@ -84,7 +83,6 @@ void modificar(int cont){
         }
     }
 }
-
 void modificar1(int cont){
     int matriculabuscada;
     for (int i = 0; i < 5; i++){
@@ -93,8 +91,6 @@ void modificar1(int cont){
     std::cout << "Ingrese la matricula a buscar"<<std::endl;
     std::cin >> matriculabuscada;
 }
-
-
 void mostrar(){
     for (int i = 0; i < N; i++){
         std::cout << "Matricula :"<<matricula[i] << std::endl;
